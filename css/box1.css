@@ -1,0 +1,35 @@
+.box1{
+    width: 390px; height: 440px;
+    padding: 45px 20px 30px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.box1__name{
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: 700;
+}
+.box1__explanation{
+    opacity: 0.5;
+}
+.box1__value{
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+.value__price{
+    font-size: 20px;
+    font-weight: 700;
+}
+.value__like-person{
+    margin-left: 5px;
+    opacity: 0.5;
+}
+.value__like .enable{
+    color: #FDBD50;
+}
+.value__like .disable{
+    color: #D8DCE6;
+}
